@@ -1,0 +1,49 @@
+body {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.card-shadow {
+    -webkit-box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.83);
+    -moz-box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.83);
+    box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.83);
+}
+
+input {
+    display: block;
+    width: 80%;
+    padding: 5px;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    outline: none;
+    margin: 0px auto;
+}
+
+input[id='user']{
+    background-image: url('user.png');
+    background-position: 5px 5px;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+input[id='pword']{
+    background-image: url('pword2.png');
+    background-position: 5px 2px;
+    background-size: 28px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+input::placeholder {
+    color: gray;
+}
+
+button {
+    width: 75%;
+    background-color: hotpink;
+    color: white;
+    border: 0px;
+    border-radius: 10px !important;
+    padding: 10px;
+    font-weight: bold;
+}
