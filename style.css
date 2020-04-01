@@ -36,7 +36,7 @@ input[id='pword']{
 
 input::placeholder {
     color: gray;
-    border-left: 1px solid;
+    border-left: 1px solid gray;
     padding: 3px 10px;
 }
 
